@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
+
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+/* Body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background: whitesmoke;
+    flex:1;
+}
+
+img {
+    max-width: 100%;
+}
+/* header margins */
+h1,
+h2,
+h3 {
+    margin-bottom: 15px;
+}
+/* general list style */
+ul {
+    list-style-type: none;   
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 15px;
+    font-weight: bold;
+}
+/* general set-up of the containers */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0;
+    border: 1px solid red;
+}
+/* CSS of Navigation part */
+.navbar {
+    background: #93c572;
+    color: #fff;
+    height: 60px;
+}
+
+.navbar .logo {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+ 
+ color: pink;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 10px;
+    
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+
+/* CSS of the Header part */
+.header {
+    background-color:#84b166;
+    color: #fff;
+    min-height: 400px;
+    margin-bottom: 40px;
+
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.header  img {
+    max-width: 510px;
+    padding: 10px;
+    border-radius: 24px;
+    max-height: 268px;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}  
+
+.order {
+    color: #fff;
+    background-color: #b2beb5;
+    padding: 10px 10px;
+    width: 100px;
+    border-radius: 5px;
+    border: 0px solid;
+    font-weight: bold;
+}
+
+.header p {
+    margin-bottom: 16px;
+}
+
+/* CSS of the Section part (images of cakes) */
+.boxes .container{
+    display: flex;
+    max-height: 1100px;
+    justify-content: center;
+}
+
+.boxes img {
+    max-width: 230px;
+    max-height: 250px;
+    border-radius: 16px;
+    border: 3px solid pink;  
+}
+
+.boxes p {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.boxes .container .box {
+    margin: 26px; 
+}
+   
+/* CSS of Cake collection box */
+.h2container {
+    display:flex;
+    align-items: center;
+ 
+}
+
+.h2container .container {
+    font-size: 36px;
+    color:#1f2937;
+    font-weight: 900;
+    width: 100%;
+    height:100%;
+    text-align: center;
+    padding: 30px;
+    color: #b86722;
+}
+
+/* CSS of Quote section */
+
+.qoute .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #e5e7eb;
+     padding: 60px;
+}
+
+.qoute .container .author {
+    margin-left: 500px;
+    padding: 15px;
+    font-weight:bolder;
+    font-size: 26px;
+}
+
+.qoute #testimonials {
+    font-size: 36px;
+    font-style: italic;
+    color:#1F2937;
+    text-align: center;
+}
+
+/* CSS of Call out action section */
+
+.callout .container {
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.callout h3 {
+    font-size: 1.75rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+/* CSS of Footer section */
+
+.footer {
+   background-color: #496239;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: center;
+}
+
+.footertext {
+    font-size: 15px;
+    color:#fff;
+}
