@@ -13,7 +13,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     color: #333;
-    background: whitesmoke;
+    background: #fff3ea;
     flex:1;
 }
 
@@ -42,7 +42,7 @@ ul {
     max-width: 1100px;
     margin: 0 auto;
     padding: 0;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 /* CSS of Navigation part */
 .navbar {
@@ -133,7 +133,7 @@ ul {
     max-width: 230px;
     max-height: 250px;
     border-radius: 16px;
-    border: 3px solid pink;  
+    border: 3px solid cyan;  
 }
 
 .boxes p {
@@ -150,7 +150,6 @@ ul {
 .h2container {
     display:flex;
     align-items: center;
- 
 }
 
 .h2container .container {
@@ -166,22 +165,26 @@ ul {
 
 /* CSS of Quote section */
 
-.qoute .container {
+#qoutes {
+    background:#B9DEFF;
+}
+
+#qoutes .container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #e5e7eb;
-     padding: 60px;
+    padding: 60px;
 }
 
-.qoute .container .author {
+#qoutes .container .author {
     margin-left: 500px;
     padding: 15px;
     font-weight:bolder;
     font-size: 26px;
+   
 }
 
-.qoute #testimonials {
+#qoutes #testimonials {
     font-size: 36px;
     font-style: italic;
     color:#1F2937;
@@ -190,22 +193,50 @@ ul {
 
 /* CSS of Call out action section */
 
+.callout {
+    padding: 60px;
+}
+
 .callout .container {
     display:flex;
     align-items: center;
     justify-content: space-around;
+    background: #dab9ff;
+    padding: 40px;
+    border-radius: 18px;
 }
 
 .callout h3 {
+    display: flex;
     font-size: 1.75rem;
     font-weight: bold;
     line-height: 1.2;
+    align-self: flex-start;
 }
 
+.callout p {
+    font-size: 18px;
+}
+
+.callout p .learn {
+    font-size: 30px;
+    font: 800;
+    color: blue;
+}
+
+.callout .signup {
+    color: #fff;
+    background-color: blue;
+    padding: 10px 10px;
+    width: 100px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    font-weight: bold;
+}
 /* CSS of Footer section */
 
 .footer {
-   background-color: #496239;
+   background: #496239;
 }
 
 .footer .container {
